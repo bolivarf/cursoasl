@@ -1,0 +1,163 @@
+    1  su
+    2  exit
+    3  cd control/
+    4  ls
+    5  git clone https://github.com/unexpo/cursoasl.git
+    6  ls
+    7  cd cursoasl/
+    8  ls
+    9  vim.tiny README.md 
+   10  git commit -a
+   11  edit
+   12  ls
+   13  git push
+   14  ls
+   15  tail c1.txt
+   16  echo prueba > c1.txt
+   17  echo prueba > c2.txt
+   18  echo prueba > c3.txt
+   19  ls
+   20  echo prueba > c4.txt
+   21  ls -la
+   22  cd .git/
+   23  ls
+   24  cd ..
+   25  mkdir prueba
+   26  cd prueba/
+   27  ls
+   28  git init 
+   29  ls
+   30  ls -la
+   31  ls
+   32  touch READNE.md
+   33  git add READNE.md
+   34  git commit -m "primera modificacion"
+   35  git remote add https://github.com/bolivarf/prueba.git
+   36  git remote add origin https://github.com/bolivarf/prueba.git
+   37  git push -u origin master
+   38  ls
+   39  git commit -m "firt commint"
+   40  git remote add origin https://github.com/bolivarf/prueba.git
+   41  git push -u origin master
+   42  man git
+   43  cd ..
+   44  ls
+   45  head 
+   46  ls
+   47  head cursoasl
+   48  cd cursoasl/
+   49  ls
+   50  head c1.txt 
+   51  head README.md 
+   52  ls
+   53  git commit -m "firt commint"
+   54  git remote add origin https://github.com/bolivarf/cursoasl.git
+   55  git push -u origin master
+   56* git remote r origin https://github.com/unexpo/cursoasl.git
+   57  cd ..
+   58  man sl
+   59  sl
+   60  sl -a
+   61  sl -e
+   62  sl -F
+   63  sl -a
+   64  sl
+   65  sl-a
+   66  sl -a
+   67  sl -e
+   68* sl -
+   69  sl -e
+   70  sl a
+   71  sl -F
+   72  sl -l
+   73  sl -la
+   74  sl -lFa
+   75  cd ..
+   76  ls
+   77  cd soporte/
+   78  ls
+   79  cd control/
+   80  ls
+   81  git add .
+   82  cd cursoasl/
+   83  ls
+   84  ls -la
+   85  cd .git/
+   86  ls
+   87  vim.tiny config 
+   88  ls
+   89  cat branches/
+   90  cd ..
+   91  mv ../sl-3.03/ .
+   92  ls
+   93  history 
+   94  git commit -m "Segundo cambio"
+   95  git remote add origin https://github.com/bolivarf/cursoasl.git
+   96  git push -u origin master
+   97  git pull
+   98  git push -u origin master
+   99  git push --help
+  100  git push -f
+  101  git push -u origin master -f
+  102  git commit -m "Tercer cambio"
+  103  git commit -a
+  104  git commit -a "cuarto error"
+  105  git commit -a 
+  106  git add .
+  107  git commit -a
+  108* 
+  109  ls -la
+  110  git add .
+  111  git commit -m "cuarto cambio"
+  112* 
+  113  git remote add origin https://github.com/bolivarf/cursoasl.git
+  114  git init
+  115  git add .
+  116  rm -R .git
+  117  rm -Ry .git
+  118  rm -R .git
+  119  man  rm
+  120  rm -Rf .git
+  121  git init
+  122  git add .
+  123  git commit -m "modi 10"
+  124  git remote add origin https://github.com/bolivarf/cursoasl.git
+  125  git push -u origin master
+  126  git push --help
+  127  git push
+  128  git pull
+  129  git push
+  130  ls
+  131  rm -Rf .git
+  132  ls
+  133  ls -la
+  134  git init
+  135  ls
+  136  ls -la
+  137  git add .
+  138  git commit -m "modi 12"
+  139  git push
+  140  git remote add origin https://github.com/bolivarf/cursoasl.git
+  141  git push
+  142  git pull
+  143  ls
+  144  mv README.md ..
+  145  ls
+  146  git add .
+  147  rm -Rf .git
+  148  git init
+  149  git add .
+  150  git commit -m "modi 12"
+  151  git remote add origin https://github.com/bolivarf/cursoasl.git
+  152  git push -u origin master
+  153  git pull -u origin master
+  154  git push -u origin master
+  155  cd ..
+  156  git clone https://github.com/julioh/CursoaslBarquisimeto.git
+  157  ls
+  158  cd CursoaslBarquisimeto/
+  159  ls
+  160  cd ..
+  161  cd cursoasl/
+  162  ls
+  163  history >t.txt
