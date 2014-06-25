@@ -338,7 +338,7 @@ draw_detailed(void)
 	putl("                      RX          TX                             RX          TX");
 
 	NEXT_ROW;
-	putl(" Bytes:        %9.1f %s%8.1f %s    Packets:    %11llu %11llu",
+	putl(" Bytes:        %9.1f %s%8.1f %s    Paquetes:    %11llu %11llu",
 		rx, rx_u, tx, tx_u,
 		intf->i_rx_packets.r_total, intf->i_tx_packets.r_total);
 
@@ -425,12 +425,12 @@ draw_help(void)
 	mvaddnstr(y+ 0, x+3, "Navigation", -1);
 	attroff(A_BOLD | A_UNDERLINE);
 
-	mvaddnstr(y+ 1, x+5, "UP      Previous interface", -1);
-	mvaddnstr(y+ 2, x+5, "DOWN    Next interface", -1);
-	mvaddnstr(y+ 3, x+5, "LEFT    Previous node", -1);
-	mvaddnstr(y+ 4, x+5, "RIGHT   Next node", -1);
-	mvaddnstr(y+ 5, x+5, "?       Toggle quick reference", -1);
-	mvaddnstr(y+ 6, x+5, "q       Quit bmon", -1);
+	mvaddnstr(y+ 1, x+5, "RePag   Tarjeta anterior", -1);
+	mvaddnstr(y+ 2, x+5, "AvPag   Tarjeta Siguiente", -1);
+	mvaddnstr(y+ 3, x+5, "FleIzq   Modo anteriore", -1);
+	mvaddnstr(y+ 4, x+5, "FleDer   Modo siguiente", -1);
+	mvaddnstr(y+ 5, x+5, "?       Ayuda referncias Rapidas", -1);
+	mvaddnstr(y+ 6, x+5, "q       Salir bmon", -1);
 
 	attron(A_BOLD | A_UNDERLINE);
 	mvaddnstr(y+ 7, x+3, "Display Settings", -1);
@@ -470,8 +470,8 @@ print_content(void)
 			attrset(COLOR_PAIR(LAYOUT_HEADER) | layout[LAYOUT_HEADER].attr);
 	
 		NEXT_ROW;
-		putl("  #   Interface                RX Rate         RX #   " \
-			"  TX Rate         TX #");
+		putl("  #   Tarjeta                  Tasa RX         RX #   " \
+			"  Tasa TX         TX #");
 	
 		NEXT_ROW;
 		hline(ACS_HLINE, cols);
